@@ -320,7 +320,7 @@ _start:
     mov rdi, 1
     syscall
 
-.clear:
+.clear:         ; Clear screen
     push clear
     push clear_len
     call .print
