@@ -4,6 +4,12 @@ import array
 from tkinter import Tk
 import os
 
+# Before executing this script make sure you have setup a postgres database in your linux system.
+# You have to manually setup a table in your database with the values shown in the insert_sql code (username, password, email, url and site_name).
+# But you can ofcourse alter the code to your liking.
+# Make sure that the options used in the connection to the database on line 16 matches your database.
+# This was inspired by a youtube video which I though was interesting.
+
 password = getpass()
 
 def ins_pass():
