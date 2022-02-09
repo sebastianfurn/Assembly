@@ -1,5 +1,8 @@
-# Assembly
-My assembly projects will be stored in this repository
+# Projects
+My projects will be stored in this repository
 
-Current:
+Assembly:
 - Rock, paper, scissor
+
+Python:
+- password manager (Inspired by youtube video)
